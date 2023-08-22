@@ -1,0 +1,41 @@
+{
+  "name": "fsd-vite-template",
+  "private": true,
+  "version": "0.0.3",
+  "type": "module",
+  "scripts": {
+    "dev": "vite --host",
+    "build": "tsc && vite build",
+    "lint": "eslint src --ext ts,tsx --report-unused-disable-directives --max-warnings 0",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@vitejs/plugin-basic-ssl": "^1.0.1",
+    "axios": "^1.4.0",
+    "postcss-nesting": "^11.3.0",
+    "pullstate": "^1.25.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-draggable": "^4.4.5",
+    "react-router-dom": "^6.12.1",
+    "vite-plugin-svgr": "^3.2.0"
+  },
+  "devDependencies": {
+    "@feature-sliced/eslint-config": "^0.1.0-beta.6",
+    "@types/node": "^20.3.1",
+    "@types/react": "^18.0.37",
+    "@types/react-dom": "^18.0.11",
+    "@typescript-eslint/eslint-plugin": "^5.59.11",
+    "@typescript-eslint/parser": "^5.59.11",
+    "@vitejs/plugin-react-swc": "^3.0.0",
+    "eslint": "^8.42.0",
+    "eslint-import-resolver-typescript": "^3.5.5",
+    "eslint-plugin-boundaries": "^3.1.1",
+    "eslint-plugin-import": "^2.27.5",
+    "eslint-plugin-react-hooks": "^4.6.0",
+    "eslint-plugin-react-refresh": "^0.3.4",
+    "prettier": "^2.8.8",
+    "typescript": "^5.0.2",
+    "vite": "^4.3.9"
+  }
+}

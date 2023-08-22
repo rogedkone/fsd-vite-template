@@ -1,0 +1,4 @@
+.theme {
+	background: var(--bg);
+	color: var(--font-color);
+}

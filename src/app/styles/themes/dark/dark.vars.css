@@ -1,0 +1,6 @@
+.dark {
+	--bg: #000000;
+	--bg-opposite: #fff;
+	--font-color: #fff;
+	--font-color-opposite: #272727;
+}

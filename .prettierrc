@@ -1,0 +1,8 @@
+{
+  "useTabs": true,
+  "tabWidth": 1,
+  "printWidth": 80,
+  "singleAttributePerLine": false,
+  "embeddedLanguageFormatting": "off",
+  "singleQuote": true
+}
